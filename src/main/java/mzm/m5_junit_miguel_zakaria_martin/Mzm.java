@@ -5,7 +5,7 @@ public class Mzm{
     public double calcularAreaCirculo(double radio){
 
         double areaCirculo = 0.0;
-        areaCirculo = Math.PI * (radio * 2);
+        areaCirculo = Math.PI * radio * radio;
         return areaCirculo;
     }
 
