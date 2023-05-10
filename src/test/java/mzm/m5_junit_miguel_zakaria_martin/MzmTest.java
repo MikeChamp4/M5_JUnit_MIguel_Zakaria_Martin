@@ -1,11 +1,11 @@
 package mzm.m5_junit_miguel_zakaria_martin;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
 public class MzmTest {
     @Test
+
     public void pruebaAreaTriangulo() {
         double base = 5, altura = 5;
         Mzm test = new Mzm();
@@ -21,5 +21,6 @@ public class MzmTest {
         double res = test.calcularPerimetroTriangulo(ladoA, ladoB, ladoC);
         double expRes = 15;
         assertEquals(expRes, res);
+
     }
 }
