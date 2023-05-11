@@ -5,21 +5,20 @@ import org.junit.jupiter.api.Test;
 
 public class MzmTest {
     @Test
-
-    public void pruebaAreaTriangulo() {
+    public void pruebaAreaRectangulo() {
         double base = 5, altura = 5;
         Mzm test = new Mzm();
-        double res = test.calcularAreaTriangulo(base, altura);
-        double expRes = 12.5;
+        double res = test.calcularAreaRectangulo(base, altura);
+        double expRes = 25;
         assertEquals(expRes, res);
     }
 
     @Test
-    public void pruebaPerimetroTriangulo() {
-        double ladoA = 5, ladoB = 5, ladoC = 5;
+    public void pruebaPerimetroRectangulo() {
+        double ladoA = 5, ladoB = 5;
         Mzm test = new Mzm();
-        double res = test.calcularPerimetroTriangulo(ladoA, ladoB, ladoC);
-        double expRes = 15;
+        double res = test.calcularPerimetroRectangulo(ladoA, ladoB);
+        double expRes = 20;
         assertEquals(expRes, res);
 
     }
