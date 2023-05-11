@@ -24,4 +24,17 @@ public class Mzm {
     public double calcularPerimetroRectangulo(double ladoA, double ladoB) {
         return (2 * ladoA) + (2 * ladoB);
     }
+    public double calcularAreaCirculo(double radio){
+
+        double areaCirculo = 0.0;
+        areaCirculo = Math.PI * radio * radio;
+        return areaCirculo;
+    }
+
+    public double calcularPerimetroCiruculo(double radio){
+
+        double perimetroCiruculo = 0.0;
+        perimetroCiruculo = (2 * Math.PI) * radio;
+        return perimetroCiruculo;
+    }
 }
